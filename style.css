@@ -1,0 +1,42 @@
+body{
+
+        background-image:url("https://media.istockphoto.com/id/467367026/photo/perfect-sky-and-ocean.jpg?s=612x612&w=0&k=20&c=LZYFRxIhuKQom3l-kR3TLN7GikSJYJz9NRglQ3nngBw=");
+background-repeat: no-repeat;
+background-position: right top;
+color: red;
+background-size: cover;}
+h1{
+    font-size: larger;
+    font-style: oblique;
+    font-weight: normal;
+    border: 10px red solid;
+    border-width: 20%;
+    animation: 4s linear 0s infinite alternate;
+}
+p{border: 10px blue solid;
+padding: 3rem;
+position: absolute;
+bottom:0;
+}
+table{
+    border-collapse: collapse;
+empty-cells: show;
+caption-side: bottom;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border: radius 50%;
+    position: relative;
+    animation: move 2s infinite
+alternate;
+}
+@keyframes move  {
+from{
+    left:0;
+}
+to{
+    left:200px;
+}
+}

@@ -1,0 +1,32 @@
+/* paranomal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px red solid;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 0.5rem;
+    height: 20rem;
+    position: relative;
+}
+.paranomal p{
+    width: 10rem;
+    height: 5rem;
+    background-color: aqua;
+
+}
+.child1{
+    order: 2;
+}
+.child2{
+    order: 3;
+} */
+.paranomal{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 1px
+}
+.paranomal p{
+    border: 1px solid blue;
+
+}
